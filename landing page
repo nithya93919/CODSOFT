@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page with Pastel Colors</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Include the CSS below inside the <style> tag for ease of testing */
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="fade-in">Welcome to Our Website</h1>
+            <p>Your journey to excellence starts here</p>
+            <a href="#services" class="cta-button slide-up">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2 class="fade-in">About Us</h2>
+                <p class="fade-in">We provide top-notch solutions to help you grow your business and achieve success.</p>
+                <div class="cards">
+                    <div class="card fade-in-up">
+                        <h3>Innovative Ideas</h3>
+                        <p>Creative solutions to keep you ahead of the competition.</p>
+                    </div>
+                    <div class="card fade-in-up">
+                        <h3>Expert Team</h3>
+                        <p>A skilled team committed to your success.</p>
+                    </div>
+                    <div class="card fade-in-up">
+                        <h3>Supportive Service</h3>
+                        <p>We are here for you, always providing great support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="fade-in">Our Services</h2>
+                <p class="fade-in">Discover the wide range of services we offer to help your business thrive.</p>
+                <div class="services-list">
+                    <div class="service">
+                        <h3>Web Development</h3>
+                        <p>Build a modern and responsive website for your business.</p>
+                    </div>
+                    <div class="service">
+                        <h3>SEO Optimization</h3>
+                        <p>Improve your online visibility and reach a wider audience.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Graphic Design</h3>
+                        <p>Create visually appealing designs to represent your brand.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Company Name | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
